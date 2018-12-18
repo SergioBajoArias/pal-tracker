@@ -33,6 +33,10 @@ public class TimeEntry {
         this.hours = timeEntry.getHours();
     }
 
+    public TimeEntry() {
+
+    }
+
     public long getId() {
         return id;
     }
