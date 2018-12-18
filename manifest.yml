@@ -6,3 +6,5 @@ applications:
       - route: pal-tracker-sergio-jenny.apps.pikes.pal.pivotal.io
     env:
       WELCOME_MESSAGE: Hello from the review environment
+    buildpack:
+      java_buildpack_offline
